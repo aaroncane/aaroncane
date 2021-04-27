@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chismografo</title>
+</head>
+
+<body style="background-color: rgba(255, 195, 29, 0.952);">
+    <section align="center">
+        <img src="https://fernandafamiliar.soy/wp-content/uploads/2020/07/Captura-de-Pantalla-2020-07-10-a-las-12.13.22.png"
+            alt="a huevo chismecito" , height="314" , width="390">
+    </section>
+    <section name="chismografo" id="chismografo">
+        <form action="datos.php" method="POST" data-netlify="true">
+
+            <p>
+                <label for="nombre">Anota tu nombre:</label>
+                <input id="casilla1" name="nombre" type="text" minlength="4" maxlength="20" placeholder="o tu apodo"
+                    required>
+            </p>
+            <p>
+                <label for="edad">Pon tu edad:</label>
+                <input id="casilla2" name="edad" type="number" minlength="1" maxlength="4"
+                    placeholder="no mientas, Diosito sabe">
+            </p>
+            <p>
+                <label for="cumple">Anota tu cumple:</label>
+                <input id="" name="cumple" type="date">
+            </p>
+            <p>
+                <label for="grupo">Anota tu grupo:</label>
+                <input id="" name="grupo" type="text">
+            </p>
+            <p>
+                <label for="zodiaco">Signo zodiacal segun los caballeros del zodiaco:</label>
+                <select name="zodiaco" id="">
+                    <option value="aries">Mü </option>
+                    <option value="tauro">Aldebaran </option>
+                    <option value="géminis">Saga</option>
+                    <option value="cáncer">Máscara de muerte</option>
+                    <option value="leo">Aioria </option>
+                    <option value="virgo">Shaka</option>
+                    <option value="libra">Dohko </option>
+                    <option value="escorpión">Milo</option>
+                    <option value="sagitario">Aioros </option>
+                    <option value="capriconio">Shura </option>
+                    <option value="acuario"> Camus </option>
+                    <option value="piscis">Afrodita </option>
+                </select>
+            </p>
+            <p>Cual es tu genero</p>
+            <p><input type="radio" name="genero" value="Femenino">Femenino
+                <input type="radio" name="genero" value="Masculino">Masculino
+            </p>
+            <p>tu preferencia setsual (selecciona todos con los que te identificas)</p>
+            <label for="preferencias">Heterosexual</label><input type="checkbox" name="prefsex"
+                value="Heterosexual"><br>
+            <label for="preferencias">Homosexual</label><input type="checkbox" name="prefsex" value="Homosexual"> <br>
+            <label for="preferencias">Asexual</label><input type="checkbox" name="prefsex" value="Asexual"><br>
+            <label for="preferencias">Pansexual</label><input type="checkbox" name="prefsex" value="Pansexual"><br>
+            <label for="preferencias">Demisexual</label><input type="checkbox" name="prefsex" value="Demisexual"><br>
+            <label for="preferencias">Otro</label><input type="text" , placeholder="Otro" name="prefsex">
+            <p>
+                <label for="insta"> Perfil de instagram</label>
+                <input type="text" placeholder="coloca tu @" required>
+            </p>
+            <p>
+                <label for="aficiones"> Aficiones <br></label>
+                <textarea id="mensaje" name="mensaje" rows="4" required cols="50" ,
+                    placeholder="lo que te gusta"></textarea>
+            </p>
+            <p>
+                <label for="Crunch">Crunch</label>
+                <input type="text" name="crush" id="crush" required placeholder="Quien te gusta del salon">
+            </p>
+            <p>
+                <label for="Musica">Genero musical favorito</label>
+                <input type="text" name="musical" id="Musica" required placeholder="o banda o lo que sea">
+            </p>
+            <p>
+                <label for="mensaje"> Deja un bonito mensaje para la banda <br></label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" , placeholder="te amo ok?" required></textarea>
+            </p>
+            <!--
+            <h4>
+                Si quieres llenarlo de verdad dale
+                <a href="https://chisme.netlify.app/" target="_blank"> Aqui</a>
+            </h4>
+            -->
+            <input type="submit" value="Chismenvialo">
+            <input type="reset" value="Abortar misión">
+            </p>
+        </form>
+    </section>
+</body>
+<footer align="center">
+    <a href="https://www.instagram.com/aaroncane_/" target="_blank">
+        <img src="https://lh3.googleusercontent.com/BZhIqT8UQFDbkFS3Z7ofhDm2fzfEnvrz2MoG2wHWdWwSdcNgTtVpKofWlT2YbuYxBhevczcecyjW6N8TZ_QUxsmkFPYEPSqsVibVeMJZ0Ktk75o0pwjH2Sx384jzRXWDbfW-y4STapq_NaEyC_faWh-hcHP_4uzYnsPo3U8EXSz0S-abb48M6ZaSKExKXDeZ04jPBdF0Oj4hOxoSVEEYON297-lHCUEuO5BiACuy9d3AoTzLkOUFQ-BBjpXokweW3qcW38KsvYW48Hoao9Tre-LedZ1uiESYpsZ3GhVbThaJzmwYkCPIQ3pTvmO35aJ0Y3QJJ3h2XpZRoNzbCEP3h6LA3W94t5duQ7iKWSESMJBjKJEiVVVJpbBiAvO8KxOidepM8nI-In6Q94CL1sJQRfXO26T83EEmI1XvqsVI2rKl5Wt5fT6avRBbNN3yMhnMx3hpRqid7OgHXrrnHFRWkvFe4I5hElYDJqInqm0m9xr7rUOwcynR6SesbO1D2Ep6DtciYG-uaxjty48M6rxqtwINtqIazM6zuAJWmQETA0XvZz2DaxVA2g-puGbwzqbBXdHxixmU64JSJgmZBFCPUb5c_ost01bxDAkEoUtUDyutRd6MlBy9jJX-aLXAj6uJWDT1y0Q9DzZ0-SHU17HKP0HWPq8aJQdjrpJUDI88xxfl4cgROIEy1D-5MihoV7Lg7NQEVcV1G_tPUzbbsBXQNfvs9Q=s32-no?authuser=0"
+            alt="Logo-Instagram">
+    </a>
+    <a href="https://www.facebook.com/aaron.cane.sandoval/" target="_blank">
+        <img
+            src="https://lh3.googleusercontent.com/S7J_lRWg-WVpOpqiTF0oKMaEhFoYZ2pgTS7UZ1dwgngxDtBOFZBt5uvsrw6s_Ot4ZSgvchdW7n7T2_RBOjAxLWdBU4a6PPrWVHo7XQxU2t5QmY0WkVuImji4URexRWxckAjn6zVWkb0Ofd6waYOZ42jcumZKk1r9_U4h_gy0vv9YS4HhTc0BjA1vYSfFsAlP__b7GFO4R2e0ZUTPunD-ggodeoL5tyugeQsuMEuDdFlad763QX_QqVJ2UV0yFO8bKKRltL9T-ergxPVenjZ6yVAqypEEmBWyLRUJSzHEfmqAqIVREooyoyzYTUUUBQ6mkpwcIRYQHRRXfgfVnJ63OGW1aW2P9yxdkgPYF2kmi8sCvbvDrCqiI_dC8NQuUgdnalfHj13DN80Wx-ln-d6q61FRe1w4qI2LcQSBKWkbcke7h944FH1IHD9GcUdm6Q2ENuvpQQC5JLoS5EOUWSrUdpqzhpSabsPQbxplW_y2uKOb7hvWcu5mhf9t62Qm-JtZeop_XQ_UMSmhNqNz8yCczzjzk2PAGERpOh45vUVFo_vAGWzufnTN_gNIWnU11n3Nolj-349Ij5E5aaljY_rLUtiG5miCMiBoyW3wdKdc6ET23OOYt-l59pERq9ga7UpsvZnaEMdfkASZByNV5wG02YFmz4Xf9zo1uAIl6Yh5M1Iu4SKVtJ_4O2Al_Jegt0tZjMxJDFu7IGZ6DrTfr3gJkFgtBQ=s32-no?authuser=0">
+    </a>
+    <h6>Informacion que deberia estar en el pie de pagina</h6>
+</footer>
+
+</html>
